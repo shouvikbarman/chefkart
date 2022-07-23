@@ -1,0 +1,87 @@
+#root{
+  height: 100vh;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 0px 20px;
+  width: 87vw;
+  height: auto;
+}
+
+.header {
+  min-height: 50px;
+  width: 109vw;
+  background-color: black;
+  position:fixed;
+  top: 0;
+}
+
+.date-time {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  box-shadow: 0px 5px 12px -8px gray;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 5px 10px 5px;
+  position: fixed;
+  top: 30px;
+  /* left: 20px; */
+  z-index: 5;
+}
+.date-time p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.time img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  border-right: 1px solid #DEDEDE;
+}
+
+.date img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px
+}
+
+.buttons {
+  position: fixed;
+  top: 110px;
+  max-width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading {
+  position: fixed;
+  top: 40%;
+  left: 35%;
+}

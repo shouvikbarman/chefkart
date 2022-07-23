@@ -1,0 +1,21 @@
+.unclicked{
+    border-radius: 40px;
+    border: 1px solid #989898;
+    color: #989898;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.clicked{
+    border-radius: 40px;
+    border: 1px solid #FF8800;
+    color: #FF8800;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+}

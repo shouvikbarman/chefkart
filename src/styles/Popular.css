@@ -1,0 +1,41 @@
+.popular-container {
+    border-bottom: 2px solid #DEDEDE;
+    /* margin-top: 50px; */
+    padding-bottom: 18px;
+    padding-right: 10px;
+    width: 100%;
+    position:fixed;
+    top: 165px;
+    left: 20px;
+    z-index: 5;
+}
+
+.popular-wrapper {
+    display: flex;
+    max-width: 100%;
+    overflow-x: scroll;
+    justify-content: space-evenly;
+}
+
+.dish-color {
+    border-radius: 50%;
+    border: 1px solid #FF941A;
+    margin-right: 10px;
+}
+
+.dish-container {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 3px;
+    display: flex;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+.dish-container p {
+    color: #fff;
+}
